@@ -24,7 +24,7 @@ class Conversation {
 		const product = this.dialogflowApp.buildRichResponse();
 		
 		product.addBasicCard(this.dialogflowApp.buildBasicCard(option.value.Summary)
-		.setTitle("Home Remedies for "+option.value.Name)
+		.setTitle("Home Remedies specific "+option.value.Name)
 		.addButton('Read more', option.value.Link)
 		.setImage(option.value.LinkImage, 'Image alternate text')
 		.setImageDisplay('CROPPED')
