@@ -35,7 +35,7 @@ class Conversation {
         });
 		
 		option.value.Products.forEach(function(element){
-			product.addSuggestionLink(" To Buy " + element, "https://www.walmart.com/search/?query="+element)
+			product.addSuggestionLink(" To Buy this " + element, "https://www.walmart.com/search/?query="+element)
 		});
 		
 		
