@@ -16,8 +16,8 @@
     "actions-on-google": "^1.0.0",
     "cheerio": "^1.0.0-rc.2",
     "firebase": "^4.5.1",
-    "firebase-admin": "~5.8.1",
-    "firebase-functions": "^0.8.2",
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^4.1.1",
     "natural": "^0.5.6",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
